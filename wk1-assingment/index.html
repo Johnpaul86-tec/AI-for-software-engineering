@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mini E-Learning Platform</h1>
+  </header>
+
+  <div class="layout">
+    <!-- Sidebar Career Guide -->
+    <aside class="sidebar">
+      <h2>Career Guide</h2>
+      <p>Not sure where to start? Select a topic:</p>
+      <select id="guideSelect">
+        <option value="">-- Choose a topic --</option>
+        <option value="webdev">Frontend Development</option>
+        <option value="design">UI/UX Design</option>
+        <option value="programming">Programming Basics</option>
+      </select>
+      <div id="guideInfo"></div>
+    </aside>
+
+    <!-- Courses area -->
+    <main class="container" id="courseContainer"></main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
