@@ -1,9 +1,3 @@
-# AI Assignment – PLP Academy
-
-### 👤 Student: [Your Name]
-### 📅 Date: October 2025
-
----
 
 ## 📘 Part 1: Theoretical Understanding (40%)
 Contains written responses covering:
@@ -51,9 +45,3 @@ Includes three implementation tasks:
 - `Debugged_TensorFlow_Code.py`  
 - `Streamlit_App.py` *(optional bonus)*
 
----
-
-## 🚀 How to Run the Code
-1. Clone the repo:
-   ```bash
-   git clone "repo url"
